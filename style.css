@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-mario {
+    height: 200px;
+    margin-left: 50px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.imagem-mario-luigi {
+    height: 350px;
+}
+
+body {
+
+    height: 100vh;
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+
+}
+
+.caixa-proncipal {
+    width: 40%;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(28, 38, 6, 0.8711134111847865) 5%, rgba(30, 41, 18, 1) 20%, rgba(158, 181, 151, 0.6358192935377276) 68%, rgba(128, 201, 128, 0.6218136912968313) 97%, rgba(244, 252, 70, 0.3108893215489321) 100%);
+    position: fixed;
+    top: 0;
+}
+
+.link-watsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header img {
+    height: 60px;
+
+
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: brown;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.formulario-fale-comigo {
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -200px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+}
+
+input {
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: green;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: green;
+
+
+}
+.mascara-formulario-2 {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(63,251,155,0.4173318985797444) 0%, rgba(5,55,39,0.5237744756105567) 0%);
+    transition: visibility 1s ease-in-out;
+
+
+}
